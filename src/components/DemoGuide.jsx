@@ -55,7 +55,7 @@ export default function DemoGuide() {
               </button>
             </div>
             
-            <div className="space-y-4 max-h-[45vh] overflow-y-auto pr-1 custom-scrollbar">
+            <div className="space-y-4 max-h-[45vh] overflow-y-auto pr-1 custom-scrollbar overscroll-contain">
               {steps.map((s, idx) => (
                 <div key={idx} className="flex gap-3 group">
                   <div className="h-8 w-8 shrink-0 bg-raised rounded-lg flex items-center justify-center text-base
